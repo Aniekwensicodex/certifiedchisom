@@ -8,10 +8,10 @@ const Footer = () => {
           © 2026 Aniekwensi Chisom. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://github.com/Aniekwensicodex" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github size={18} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/aniekwensi-chisom-419b93256/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin size={18} />
           </a>
           <a href="mailto:chisomemmanuel995@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
