@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+﻿# Chisom's Portfolio
 
-## Project info
+> A modern, responsive personal portfolio built with Vite, React, TypeScript, Tailwind CSS, and shadcn/ui.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Quick Start
 
-There are several ways of editing your application.
+### 1) Install dependencies
 
-**Use Lovable**
+```bash
+npm install
+```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 2) Run the dev server
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open http://localhost:5173 in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 3) Build for production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 4) Preview the production build
 
-## What technologies are used for this project?
+```bash
+npm run preview
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔎 About this Project
 
-## How can I deploy this project?
+This repository contains a personal portfolio site showcasing projects, skills, and contact information. It is built with a modern React + TypeScript stack and includes:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Responsive layout and styling powered by **Tailwind CSS**
+- UI components built on **shadcn/ui** + **Radix UI**
+- Routing via **React Router**
+- State & data handling with **React Query**
+- Form validation with **React Hook Form** and **Zod**
+- Local theme support using **next-themes**
+- Animations with **Framer Motion**
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🧱 Key Features
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- 🌙 Dark + Light theme toggle
+- 📄 Multiple pages (Home, Projects, Skills, About, Contact)
+- 🧩 Component-based design system (buttons, cards, modals, toast notifications)
+- ⚡ Fast builds and hot reloading via Vite
+- ✅ Type-safe forms & validation
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 🗂️ Project Structure (Highlights)
+
+- `src/main.tsx` – app entrypoint
+- `src/App.tsx` – router and layout
+- `src/pages/` – top-level pages (Home, Projects, Skills, About, Contact)
+- `src/components/` – reusable UI components and shadcn/ui primitives
+- `src/data/` – project and product data used in pages
+- `src/lib/utils.ts` – shared helper utilities
+
+---
+
+## ✅ Scripts
+
+| Command | Description |
+|--------|-------------|
+| `npm run dev` | Start dev server (hot reload) |
+| `npm run build` | Build production assets |
+| `npm run preview` | Serve built production assets locally |
+| `npm run lint` | Run ESLint |
+| `npm run test` | Run unit tests (Vitest) |
+
+---
+
+## 📦 Deploying
+
+You can deploy this site to any static hosting provider that supports Vite builds.
+
+### Recommended platforms
+
+- **Netlify** – connect repository and deploy from `dist/`
+- **Vercel** – auto-detects Vite apps
+- **GitHub Pages** – serve `dist/` via `gh-pages` or via GitHub Actions
+
+---
+
+## 🤝 Contributing
+
+Feel free to open issues or pull requests. Key contribution areas:
+
+- Adding new projects, skills, or page content
+- Improving accessibility and responsiveness
+- Adding new components (e.g., charts, forms, or data visualizations)
+
+---
+
+## 📝 License
+
+This project is currently unlicensed. Add a license file if you want to clarify reuse terms.
